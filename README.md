@@ -12,31 +12,37 @@ Every program focuses on **logic clarity**, **working examples**, and **topic-wi
 ---
 
 ## 📂 Folder Structure  
-📁 OperatingSystemsPracticeProblem
+```text
+OperatingSystemsPracticeProblem/
 │
 ├── scheduling_algorithms/
-│ ├── fcfs.c
-│ ├── sjf.c
-│ ├── priority.c
-│ ├── round_robin.c
+│   ├── fcfs.c
+│   ├── sjf.c
+│   ├── priority.c
+│   └── round_robin.c
 │
 ├── memory_management/
-│ ├── first_fit.c
-│ ├── best_fit.c
-│ ├── worst_fit.c
+│   ├── first_fit.c
+│   ├── best_fit.c
+│   └── worst_fit.c
+│
+├── file_allocation/
+│   ├── contiguous.c
+│   ├── linked.c
+│   └── indexed.c
 │
 ├── page_replacement/
-│ ├── fifo.c
-│ ├── lru.c
-│ ├── optimal.c
+│   ├── fifo.c
+│   ├── lru.c
+│   └── optimal.c
 │
 ├── process_synchronization/
-│ ├── semaphore.c
-│ ├── producer_consumer.c
-│ ├── reader_writer.c
+│   ├── semaphore.c
+│   ├── producer_consumer.c
+│   └── reader_writer.c
 │
 └── README.md
-
+```
 
 ---
 
